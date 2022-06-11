@@ -26,7 +26,7 @@ As far as my strengths is great desire and ability to learn, ability to work in 
 ## Education
 - **University:** Vyatka State University, economist (bachelor), manager of projects(master)
 - Codeacademy (Html+CSS, JS)
-- [The Modern JavaScript Tutorial] (https://learn.javascript.ru/)
+- [The Modern JavaScript Tutorial](https://learn.javascript.ru/)
 - RS Schools «JavaScript/Front-end. Stage 0»
 
 ## Code example
