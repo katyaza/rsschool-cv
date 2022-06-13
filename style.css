@@ -56,15 +56,24 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .sides__container{
     display: flex;
 }
+.header__nav_list{
+    margin: 0px 0px 0px 40px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #ffcc01;
+    font-family: Poppins;
+    font-size:13px;
+    padding: 3px 0px;
+}
 .header{
-    padding:10px;
     text-align: center;
-    margin: 20px 0px;
 }
 .column-left{
     flex: 0 1 30%;
 }
 .header__container{
+    padding:10px;
+    margin: 20px 0px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
