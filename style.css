@@ -1,0 +1,236 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    font-family: Montserrat;
+    background-color: #FAFBFD;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; color: inherit;}
+a:hover{text-decoration:none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+/*Обнуление*/
+
+/*header*/
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+[class*="__container"] {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.sides__container{
+    display: flex;
+}
+.header__nav_list{
+    margin: 0px 0px 0px 40px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #ffcc01;
+    font-family: Poppins;
+    font-size:13px;
+    padding: 3px 0px;
+}
+.header{
+    text-align: center;
+}
+.column-left{
+    flex: 0 1 30%;
+}
+.header__container{
+    padding:10px;
+    margin: 20px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__image_container{
+    padding:50px 0px;
+    background-image: url(./assets/img/myPhoto-fon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-bottom:20px; 
+    background-position: 50%;
+}
+.header__name{
+    margin: 10px;
+    font-size: 32px;
+    letter-spacing: 7px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+.header__position{
+    font-size: 17px;
+    line-height: 14px;
+}
+/*contacts*/
+.contacts{
+    margin:40px 0px;
+}
+.main__container{
+    margin: 50px 60px;
+}
+.contacts__wrapper{
+    display:flex;
+}    
+.contact__images{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffcc01;
+    border-radius: 20px;
+    padding: 10px;
+}
+.contact__images img{
+    max-width: 30px;
+    margin: 5px 0px;
+}
+.contact__items{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 6px 10px;
+    color: #707070;
+}
+/*skills*/
+h3{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 7px;
+    line-height: 42px;
+    color: #ffcc01
+}
+.title{
+    text-align: center;
+    background-color: #313030;
+    margin:30px 90px;
+    text-transform: uppercase;
+    padding: 0px 8px;
+}
+.item{
+	background-image: url('./assets/img/item.png');
+    background-size: 15px;
+	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+/*language*/
+.language__level{
+    margin:0px 0px 0px 10px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 16px;
+}
+
+/*about me*/
+.column-right{
+    flex: 0 1 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(40, 40, 40, 0.02);
+}
+.about-me__title{
+    margin: 70px 160px 30px 160px;
+}
+.about-me__text{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.project-wrapper{
+    text-align: center;
+}
+/*education*/
+.education__title{
+    margin: 30px 160px 30px 160px;
+}
+.education__container{
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.education__place{
+    background-image: url('./assets/img/university.png');
+    background-size: 15px;
+	background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 5px 20px;
+    font-weight: 700;
+    color:#444343;
+}
+.education__item{
+    padding:0px 10px;
+}
+.education__curse{
+    background-image: url('./assets/img/computer.png');
+    background-size: 15px;
+	background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 5px 20px;
+    font-weight: 700;
+    color:#444343;
+}
+.my-project__title{
+    margin: 40px 140px 30px 140px;
+}
+.project__name{
+    margin-top: 15px;
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.code__title{
+    margin: 40px 140px 30px 140px;
+}
+/*footer*/
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
